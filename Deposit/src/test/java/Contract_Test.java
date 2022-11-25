@@ -20,9 +20,6 @@ public class Contract_Test {
     }
     @Test
     public void testGetID(){Assert.assertEquals(contract.getContractID().longValue(), 2L);}
-//    @Test
-//    public void testGetSum_contract(){Assert.assertTrue(contract.getSum_contract()==Double.valueOf(50666.0));}
-//    @Test
-//    public void testGetFalseSum_contract(){Assert.assertNotEquals(contract.getSum_contract(), Double.valueOf(10000.761));}
+
 
 }
